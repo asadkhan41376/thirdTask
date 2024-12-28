@@ -1,0 +1,44 @@
+ [
+    {
+      "Image1": "/SlideImg/fish.jpg",
+      "Image2": "/SlideImg/flipper.jpg",
+  
+      "firstHeading": "Fish",
+      "SecoundHeading": "Flipper"
+  
+    },
+  
+    {
+      "Image1": "/SlideImg/animal.jpg",
+      "Image2": "/SlideImg/Velcro.jpg",
+      "firstHeading": "Animal Fur and Burs",
+      "SecoundHeading": "Velcro"
+  
+    },
+  
+    {
+      "Image1": "/SlideImg/bird.jpg",
+      "Image2": "/SlideImg/buuletTrain.jpg",
+  
+      "firstHeading": "KingFishier ",
+      "SecoundHeading": "Buulet Train"
+  
+    },
+    
+    {
+      "Image1": "/SlideImg/flower (1).jpg",
+      "Image2": "/SlideImg/color.jpg",
+  
+      "firstHeading": "Flower",
+      "SecoundHeading": "paint colors"
+  
+    },
+    {
+      "Image1": "/SlideImg/woodpecker.jpg",
+      "Image2": "/SlideImg/football.jpg",
+  
+      "firstHeading": "Woodpecker",
+      "SecoundHeading": "Football"
+  
+    }
+  ]
