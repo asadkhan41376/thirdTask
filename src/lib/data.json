@@ -9,8 +9,8 @@
     },
   
     {
-      "Image1": "/SlideImg/animal.jpg",
-      "Image2": "/SlideImg/Velcro.jpg",
+      "Image1": "/SlideImg/dog_with_burs.webp",
+      "Image2": "/SlideImg/shoes_with_velcro.webp",
       "firstHeading": "Animal Fur and Burs",
       "SecoundHeading": "Velcro"
   
@@ -35,7 +35,7 @@
     },
     {
       "Image1": "/SlideImg/woodpecker.jpg",
-      "Image2": "/SlideImg/football.jpg",
+      "Image2": "/SlideImg/helmet.webp",
   
       "firstHeading": "Woodpecker",
       "SecoundHeading": "Football"
