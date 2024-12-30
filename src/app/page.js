@@ -39,12 +39,16 @@ export default function Home() {
         {swiperData.map((item, index) => (
           <SwiperSlide className="relative" key={index}>
             {/* YE APNA CONTAINT SLIDE KA  */}
-
-            <div className=" h-screen w-full flex  justify-around items-center  ">
+            <div className="text-center md:absolute  py-5 w-full ">
+              <h1 className="text-3xl font-bold">Biomimicry</h1>
+              <p className="text-sm max-w-full px-8 ">Copy the Nature.</p>
+            </div>
+            <div className=" h-screen w-full flex  justify-around items-center flex-col md:flex-row  ">
+           
               {/* first image ============================ */}
 
               <div className="bg-[#79DAFF] h-full w-full flex items-center justify-center">
-                <div className="imageFirst w-[500px] h-[400px] relative rounded-2xl overflow-hidden shadow-md shadow-black">
+                <div className="w-[300px] h-[300px] sm:w-[500px] sm:h-[400px] relative rounded-2xl overflow-hidden shadow-md shadow-black">
                   <Image
                     src={item.Image1}
                     layout="fill"
@@ -59,8 +63,8 @@ export default function Home() {
 
               {/* secound image ============================ */}
 
-              <div className=" lg:bg-[#99A1B3] h-full w-full flex items-center justify-center ">
-                <div className="imageSecound w-[500px] h-[400px] relative rounded-2xl overflow-hidden shadow-md shadow-black">
+              <div className="bg-[#99A1B3] h-full w-full flex items-center justify-center ">
+                <div className="w-[300px] h-[300px] sm:w-[500px] sm:h-[400px] relative rounded-2xl overflow-hidden shadow-md shadow-black">
                   <Image
                     src={item.Image2}
                     layout="fill"
@@ -75,21 +79,12 @@ export default function Home() {
             </div>
 
             {/* YE APNA BTN   */}
-            <div className="absolute top-0 flex justify-between items-center w-full flex-col h-full py-5  ">
-              <div className="text-center  ">
-                <h1 className="text-3xl font-bold">Design</h1>
-                <p className="text-sm max-w-full px-8 ">
-                  Fish| Flipper Burs sticking on animal fur | Velcro Bird with
-                  pointed beak| Bullet train Flower | Paint colours Woodpecker |
-                  Football helmet
-                </p>
-              </div>
-
-              <div className="relative myBtn ">
+            <div className="bottom-[39%] right-[35%] absolute md:bottom-0 md:right-[45%] text-center pb-8">
+              <div className="relative myBtn">
                 <Button
                   variant="outline"
                   onClick={handleClick}
-                  className="bg-black text-xl text-white  hover:bg-transparent   h-[50px] py-4 px-8 w-[150px] btn "
+                  className="bg-black  text-white  hover:bg-transparent   h-[50px] py-2 px-10 btn "
                 >
                   Next <MdDoubleArrow />
                 </Button>
